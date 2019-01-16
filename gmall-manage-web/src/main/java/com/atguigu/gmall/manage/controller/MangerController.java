@@ -11,4 +11,11 @@ public class MangerController {
 
         return "index";
     }
+
+
+    @RequestMapping("attrlistpage")
+    public String attrListPage(){
+
+        return "attrListPage";
+    }
 }
